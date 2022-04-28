@@ -1,6 +1,6 @@
-﻿using CleanArchitecture.Application.Common.Interfaces;
+﻿using TakDotNet.Application.Common.Interfaces;
 
-namespace CleanArchitecture.Infrastructure.Services;
+namespace TakDotNet.Infrastructure.Services;
 
 public class DateTimeService : IDateTime
 {
