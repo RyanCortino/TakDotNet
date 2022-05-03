@@ -1,4 +1,4 @@
-﻿namespace TakDotNet.Domain.Common;
+﻿namespace TakDotNet.Application.Common.Interfaces;
 
 public interface ICustomService
 {

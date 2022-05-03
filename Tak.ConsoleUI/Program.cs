@@ -3,7 +3,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Serilog;
 using TakDotNet.Application.Common;
-using TakDotNet.Domain.Common;
+using TakDotNet.Infrastructure.Services;
 
 // Setting up the configuartion for serilog 
 ConfigurationBuilder builder = new();

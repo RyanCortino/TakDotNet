@@ -18,6 +18,7 @@
 
 	<ItemGroup>
 	  <ProjectReference Include="..\src\Domain\TakDotNet.Domain.csproj" />
+	  <ProjectReference Include="..\src\Infrastructure\TakDotNet.Infrastructure.csproj" />
 	</ItemGroup>
 
 	<ItemGroup>
