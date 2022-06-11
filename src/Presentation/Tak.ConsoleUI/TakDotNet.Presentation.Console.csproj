@@ -17,8 +17,8 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <ProjectReference Include="..\src\Application\TakDotNet.Application.csproj" />
-	  <ProjectReference Include="..\src\Infrastructure\TakDotNet.Infrastructure.csproj" />
+	  <ProjectReference Include="..\..\Application\TakDotNet.Application.csproj" />
+	  <ProjectReference Include="..\..\Infrastructure\TakDotNet.Infrastructure.csproj" />
 	</ItemGroup>
 
 	<ItemGroup>
