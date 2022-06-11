@@ -20,6 +20,10 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Application.IntegrationTests", "tests\Application.IntegrationTests\Application.IntegrationTests.csproj", "{277029AF-D9E1-4B75-9F11-48FEA7345AD7}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TakDotNet.Presentation.Console", "Tak.ConsoleUI\TakDotNet.Presentation.Console.csproj", "{D7A19581-FBC9-4B21-A16E-070A3CF09EBB}"
+	ProjectSection(ProjectDependencies) = postProject
+		{117DA02F-5274-4565-ACC6-DA9B6E568B09} = {117DA02F-5274-4565-ACC6-DA9B6E568B09}
+		{34C0FACD-F3D9-400C-8945-554DD6B0819A} = {34C0FACD-F3D9-400C-8945-554DD6B0819A}
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{4E7ABB2D-A1FF-4640-80C9-FA0E50ECFE54}"
 EndProject
