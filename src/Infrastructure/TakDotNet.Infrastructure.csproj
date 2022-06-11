@@ -9,12 +9,16 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <ProjectReference Include="..\Application\TakDotNet.Application.csproj" />
+      <Compile Remove="Files\**" />
+      <Compile Remove="Persistence\**" />
+      <EmbeddedResource Remove="Files\**" />
+      <EmbeddedResource Remove="Persistence\**" />
+      <None Remove="Files\**" />
+      <None Remove="Persistence\**" />
     </ItemGroup>
 
     <ItemGroup>
-      <Folder Include="Files\" />
-      <Folder Include="Persistence\" />
+        <ProjectReference Include="..\Application\TakDotNet.Application.csproj" />
     </ItemGroup>
 
     <ItemGroup>

@@ -9,9 +9,15 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <Folder Include="Entities\" />
-      <Folder Include="Enums\" />
-      <Folder Include="Events\" />
+      <Compile Remove="Entities\**" />
+      <Compile Remove="Enums\**" />
+      <Compile Remove="Events\**" />
+      <EmbeddedResource Remove="Entities\**" />
+      <EmbeddedResource Remove="Enums\**" />
+      <EmbeddedResource Remove="Events\**" />
+      <None Remove="Entities\**" />
+      <None Remove="Enums\**" />
+      <None Remove="Events\**" />
     </ItemGroup>
 
 </Project>

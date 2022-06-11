@@ -9,6 +9,18 @@
     </PropertyGroup>
 
     <ItemGroup>
+      <Compile Remove="Common\Behaviours\**" />
+      <Compile Remove="Common\Exceptions\**" />
+      <Compile Remove="Common\Models\**" />
+      <EmbeddedResource Remove="Common\Behaviours\**" />
+      <EmbeddedResource Remove="Common\Exceptions\**" />
+      <EmbeddedResource Remove="Common\Models\**" />
+      <None Remove="Common\Behaviours\**" />
+      <None Remove="Common\Exceptions\**" />
+      <None Remove="Common\Models\**" />
+    </ItemGroup>
+
+    <ItemGroup>
         <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="11.0.0" />
         <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="10.4.0" />
         <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="10.0.1" />
@@ -17,12 +29,6 @@
 
     <ItemGroup>
         <ProjectReference Include="..\Domain\TakDotNet.Domain.csproj" />
-    </ItemGroup>
-
-    <ItemGroup>
-      <Folder Include="Common\Behaviours\" />
-      <Folder Include="Common\Exceptions\" />
-      <Folder Include="Common\Models\" />
     </ItemGroup>
 
 </Project>
